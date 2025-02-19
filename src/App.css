@@ -1,0 +1,41 @@
+body {
+  transition: background 2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.text-2xl {
+  font-size: 10rem;
+}
+.list {
+  list-style: none;
+}
+.decoration-none {
+  text-decoration: none;
+  color: black;
+}
+.decoration-none:hover {
+  font-size: large;
+  text-shadow: 0rem .3rem 1rem black;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.w-50 {
+  width: 20%;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.underline {
+  text-decoration: underline;
+}
